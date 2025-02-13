@@ -1,0 +1,164 @@
+.navbar {
+  background-color: #333;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-box {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content .dropdown-item {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content .dropdown-item:hover {
+  background-color: #007bff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.follow-button, .followed-text {
+  padding: 8px 16px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.followed-text {
+  background-color: #6c757d;
+}
+
+.follow-button:hover, .followed-text:hover {
+  background-color: #218838;
+}
+
+.view-profile-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.view-profile-button:hover {
+  background-color: #0056b3;
+}
+
+.search-result {
+  margin-top: 20px;
+}
+
+.profile-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-result h3 {
+  margin-bottom: 10px;
+}
+
+.following-profile-link {
+  text-decoration: none;
+  color: white;
+}
+
+.following-profile-link:hover {
+  color: #007bff;
+}
+
+.dropdown-item {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #007bff;
+}
+
+.following-profile-link, .dropdown-item {
+  text-decoration: none;
+  color: white;
+}
+
+.following-profile-link:hover, .dropdown-item:hover {
+  color: #007bff;
+}

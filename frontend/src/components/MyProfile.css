@@ -1,0 +1,45 @@
+/* src/components/MyProfile.css */
+
+.my-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh; /* Ensures the container takes up at least the full viewport height */
+    padding: 20px;
+  }
+  
+  .my-profile-container h2 {
+    margin-bottom: 20px;
+    font-size: 2em; /* Adjust as needed */
+  }
+  
+  .my-profile-container div { /* Styles the profile information section */
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .my-profile-container p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .my-profile-container strong { /* Styles the labels (e.g., "Username:") */
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  /* Optional: Add more specific styles for other profile details */
+  /* .my-profile-container .profile-detail { /* Example class for a specific detail */
+    /* Add styles here */
+  /* }  */
+  
+  /* Responsive adjustments (optional) */
+  @media (max-width: 400px) { /* Example breakpoint */
+    .my-profile-container div {
+      width: 90%; /* Make the profile info take up more of the screen on smaller devices */
+    }
+  }
