@@ -12,7 +12,7 @@ app.use(cors({
     methods: ["GET", "POST","UPDATE","DELETE","PUT"],        // Allow necessary HTTP methods
     credentials: true                 // If sending cookies
 }));
-mongoose.connect("mongodb+srv://kamireddycherri:Wr8RsGYhMRZLVAsp@cluster0.owrn7.mongodb.net/leetcode2?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("url")
 //Wr8RsGYhMRZLVAsp
 
 
